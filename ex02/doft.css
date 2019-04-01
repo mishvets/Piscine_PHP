@@ -1,0 +1,26 @@
+body {
+	background-color: #505050; 
+}
+.top {
+	background-color: #909090;
+	margin: auto;
+	width: 75%;
+	height: 35%;
+	border-radius: 5px;
+}
+#day_of_the_42 {
+	width: 31%;
+	padding: 1%;
+
+}
+#reload {
+	width: 1.5%;
+	padding: 1%;
+	float: right;
+}
+#close {
+	width: 1.5%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
