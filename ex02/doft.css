@@ -1,21 +1,65 @@
 body {
 	background-color: #505050; 
 }
-.top {
-	background-color: #909090;
+#top {
 	margin: auto;
-	width: 75%;
-	height: 35%;
+	margin-bottom: 1%;
+	background-color: #909090;
 	border-radius: 5px;
+	box-shadow: 10px 10px 8px;
+	position: relative;
+	width: 1150px;
+	height: 110px;
+}
+#center {
+	background-color: #909090;
+	border-radius: 5px;
+	box-shadow: 10px 10px 8px;
+	padding: 8px;
+	margin: auto;
+	margin-top: 1.1%;
+	width: 797px;
+	height: 455px;
+	position: relative;
+}
+#left {
+	background-color: #909090;
+	border-radius: 5px;
+	box-shadow: 10px 10px 8px;
+	width: 115px;
+	height: 345px;
+	position: absolute;
+	left: 230px;
+	top: 135px;
+}
+#right {
+	background-color: #909090;
+	border-radius: 5px;
+	box-shadow: 10px 10px 8px;
+	width: 115px;
+	height: 345px;
+	position: absolute;
+	right: 230px;
+	top: 135px;
+}
+#dialog {
+	background-color: #70ff7b;
+	border-radius: 8px;
+	box-shadow: 10px 10px 8px;
+	width: 420px;
+	height: 135px;
+	position: absolute;
+	left: 165px;
+	top: 550px;
+	padding: 1px;
 }
 #day_of_the_42 {
 	width: 31%;
-	padding: 1%;
-
+	padding: 10px;
 }
 #reload {
 	width: 1.5%;
-	padding: 1%;
+	padding: 0.5%;
 	float: right;
 }
 #close {
@@ -23,4 +67,121 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	padding: 0.5%;
+}
+#loupe {
+	padding-top: 0.5%;
+	width: 210px;
+	float: right;
+}
+#cluster {
+	width: 100%;
+	height: 100%;
+}
+#screen {
+	position: absolute;
+	right: 3.5%;
+	top: 56%;
+	width: 20%;
+	height: 25%;
+}
+#chair {
+	position: absolute;
+	left: 250px;
+	top: 60%;
+	width: 18%;
+	height: 35%;
+}
+.left_pic {
+	position: absolute;
+	left: 23%;
+	margin: 1%;
+	padding: 1%;
+	width: 49%;
+	height: 16.5%;
+}
+#advance {
+	top: 2.5%;
+}
+#take {
+	top: 21%;
+}
+#look {
+	border-style: solid;
+	padding: 0.5%;
+	border-width: 4px;
+	border-color: red;
+	border-radius: 7%;
+	margin-left: 0%;
+	left: 21%;
+	top: 39.5%; 
+}
+#use {
+	top: 60%;
+}
+#speak {
+	top: 78%;
+}
+#book {
+	top: 2.5%;
+	position: absolute;
+	left: 23%;
+	margin: 1%;
+	padding: 1%;
+	width: 60px;
+	height: 80px;
+}
+#towel {
+	top: 27%;
+	position: absolute;
+	left: 23%;
+	margin: 1%;
+	padding: 1%;
+	width: 60px;
+	height: 45px;
+}
+#brick {
+	background-image: url("resources/brick.jpg");
+	background-repeat: repeat;
+	background-size: 29%;
+	width: 90px;
+	height: 55px;
+	top: 140px;
+	position: absolute;
+	left: 10px;
+	margin: 2%;
+	padding: 1%;
+}
+p {
+	font-size: 13px;
+	font-family: Tahoma;
+	letter-spacing: 0.5px;
+	margin: 0.5%;
+	margin-left: 2%;
+
+}
+#entrez {
+	font-size: 30px;
+	font-family: Georgia;
+}
+#ordinateur {
+	text-shadow: 5px 5px 4px red;
+}
+#italic {
+	font-style: italic;
+}
+button {
+	text-align: center;
+	font: Tahoma;
+	font-size: 12px;
+	background: linear-gradient(to bottom, #f4eff3, #dcdcdc);
+	border-radius: 3px;
+	margin: 4px 2px;
+}
+#formulaire {
+  width: 70%;
+  height: 14px;
+  margin: 0%;
+  margin-left: 2%;
+  border: 1.5px inset;
 }
