@@ -1,6 +1,13 @@
+		* {
+			margin: 0 0;
+		}
+		html {
+			width: 100%;
+		}
 		body {
 			background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/blue-pastel-background-1-1.jpg");
 			font-family: Arial, Helvetica, sans-serif;
+			width: 100%;
 		}
 		h1 {
 			font-size: 3vw;
@@ -13,6 +20,7 @@
 		p {
 			text-align: center;
 			font-weight: bold;
+			font-size: 1vw;
 		}
 		.non-metal {
 			background-color: gainsboro;
@@ -57,6 +65,10 @@
 		.number {
 			text-align: left;
 			font-size:0.7vw;
+		}
+		.elem_arr {
+			font-size:1vw;
+			text-align: center;
 		}
 		td {
  			width: 5%;

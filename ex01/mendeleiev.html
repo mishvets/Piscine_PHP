@@ -3,20 +3,29 @@
 <HEAD>
 	<TITLE>Periodic Table</TITLE>
 	<STYLE>
+		* {
+			margin: 0 0;
+		}
+		html {
+			width: 100%;
+		}
 		body {
 			background-image: url("https://backgroundcheckall.com/wp-content/uploads/2017/12/blue-pastel-background-1-1.jpg");
 			font-family: Arial, Helvetica, sans-serif;
+			width: 100%;
 		}
 		h1 {
+			font-size: 3vw;
 			text-align: center;
 		}
 		div {
-			min-width: 100px;
-			min-height: 100px;
+			width: 100%;
+			height: 100%;
 		}
 		p {
 			text-align: center;
 			font-weight: bold;
+			font-size: 1vw;
 		}
 		.non-metal {
 			background-color: gainsboro;
@@ -50,17 +59,26 @@
 		}
 		.weight {
 			text-align: right;
-			font-size:80%;
+			font-size: 0.7vw;
 		}
 		.elem {
 			color: black;
 			font-weight: bold;
 			text-align: center;
-			font-size:150%;
+			font-size:2vw;
 		}
 		.number {
 			text-align: left;
-			font-size:80%;
+			font-size:0.7vw;
+		}
+		.elem_arr {
+			font-size:1vw;
+			text-align: center;
+		}
+		td {
+ 			width: 5%;
+ 			height: 5%;
+			text-align: center;
 		}
 		table {
 			width: 100%;
@@ -70,8 +88,7 @@
 </HEAD>
 <BODY>
 	<H1>Periodic Table of the Elements</H1>
-
-	<table>
+	<table contenteditable="true">
 		<tr>
 			<td>
 				<div class="non-metal">
@@ -480,9 +497,7 @@
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight"> </p>
-					<p class="elem">57-71*</p>
-					<p class="number"> </p>
+					<p class="elem_arr">57-71*</p>
 				</div>
 			</td>
 			<td>
@@ -609,7 +624,7 @@
 			<td>
 				<div class="actinide">
 					<p class="weight"></p>
-					<p class="elem">89-103**</p>
+					<p class="elem_arr">89-103**</p>
 					<p class="number"></p>
 				</div>
 			</td>
@@ -734,63 +749,63 @@
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">140.12</p>
 					<p class="elem">Ce</p>
 					<p class="number">58</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">140.91</p>
 					<p class="elem">Pr</p>
 					<p class="number">59</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">144.24</p>
 					<p class="elem">Nd</p>
 					<p class="number">60</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">(145)</p>
 					<p class="elem">Pm</p>
 					<p class="number">61</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">150.36</p>
 					<p class="elem">Sm</p>
 					<p class="number">62</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
-					<p class="elem">Ey</p>
+					<p class="weight">151.96</p>
+					<p class="elem">Eu</p>
 					<p class="number">63</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">157.25</p>
 					<p class="elem">Gd</p>
 					<p class="number">64</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">158.93</p>
 					<p class="elem">Tb</p>
 					<p class="number">65</p>
 				</div>
 			</td>
 			<td>
 				<div class="lanthanide">
-					<p class="weight">138.90</p>
+					<p class="weight">162.5</p>
 					<p class="elem">Dy</p>
 					<p class="number">66</p>
 				</div>
