@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	margin: 10px;
+}
+.header ul{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	background-color: black;
+}
+.header > ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.header > ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 8px;
+}
+.header li a:hover{
+	background: #0FD298;
+	color: black;
+	font-weight: bold;
+}
