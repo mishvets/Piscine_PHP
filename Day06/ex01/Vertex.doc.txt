@@ -1,0 +1,14 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles "homogeneous coordinates".
+
+An instance can be contructed:
+new Vertex( array('x'=>1.0,'y'=>0.0,'z'=>0.0,'w' => 3.0,'color'=>$green));
+
+X, Y, Z - mandatory coordinates;
+
+W - optional, by default is worth 1.0;
+
+Color - optional, variable from class Color.
+By default is worth a new instance of the color white.
+
+---------------------------------------------------------------------- Vertex ->
