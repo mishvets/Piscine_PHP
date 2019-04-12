@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Ballon</title>
+		<style type="text/css">
+			#ballon {
+				background-color: red;
+				height: 200px;
+				width: 200px;
+				margin-left: 40%;
+				margin-top: 40%;
+				border-radius: 50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="ballon" onclick="mouseClick()" onmouseout="mouseGoOut()">
+
+		</div>
+		<script>
+			var k = 0;
+			var n = 200;
+			var elem = document.getElementById('ballon');
+			var collor_arr = ["red", "green", "blue"];
+
+			function mouseClick() {
+				elem.style.backgroundColor = collor_arr[(++k) % 3];
+				if (n <= 420) {
+					n += 10;
+				}
+				else {
+					n = 200;
+				}
+				elem.style.height =  n + 'px';
+				elem.style.width =  n + 'px';
+			}
+
+			function mouseGoOut() {
+				if (n > 200) {
+					k = (k + 2) % 3;
+					elem.style.backgroundColor = collor_arr[k];
+					n -= 5;
+				}
+				else {
+					n = 200;
+				}
+				elem.style.height =  n + 'px';
+				elem.style.width =  n + 'px';
+			}
+		</script>
+	</body>
+</html>

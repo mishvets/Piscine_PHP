@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Calc</title>
+		<style type="text/css">
+		
+		</style>
+	</head>
+	<body>
+		<input id="val1" type="text" placeholder="val1" name="fname"/>
+		<select id="op" >
+  			<option value="add">+</option>
+  			<option value="sub">-</option>
+  			<option value="mult">*</option>
+  			<option value="div">/</option>
+  			<option value="rest">%</option>
+		</select>
+		<input id="val2" type="text" placeholder="val2" name="fname" />
+		<input type="submit" value="Try me!" onclick="count()">
+		<script>
+			var val1 = document.getElementById("val1").value;
+			var val2 = document.getElementById("val2").value;
+			console.log("ok");
+			console.log(val1);
+			function count() {
+				var val1 = parseInt(document.getElementById("val1").value, 10);
+				var val2 = parseInt(document.getElementById("val2").value, 10);
+				var op = document.getElementById("op").value;
+				// console.log(op);
+				if (isNaN(val1) || isNaN(val2) || val1 < 0 || val2 < 0) {
+					alert("Error :(");
+				}
+				else if (op === "add") {
+					alert(val1 + val2);
+				}
+				else if (op === "sub") {
+					alert(val1 - val2);
+				}
+				else if (op === "mult") {
+					alert(val1 * val2);
+				}
+				else if (op === "div") {
+					if (val2 === 0){
+						alert("It’s over 9000!");
+					}
+					alert(val1 / val2);
+				}
+				else if (op === "rest") {
+					if (val2 === 0){
+						alert("It’s over 9000!");
+					}
+					alert(val1 % val2);
+				}
+			}
+		</script>
+	</body>
+</html>
